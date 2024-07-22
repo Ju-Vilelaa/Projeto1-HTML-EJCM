@@ -1,0 +1,89 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter";
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #181B24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 216px, 173px, 216px, 173px;
+}
+
+.form_cadastro{
+    font-family: sans-serif;
+    margin:73.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.square_cadastro{
+    margin: 173px 128.5px;
+    width: 547px;
+    height: 767px;
+    background: #F2F2F2; 
+    border-radius: 20px; 
+}
+.logo{
+    margin-right: 173px
+}
+
+.input{
+    width: 400px;
+    height: 50px;
+    top: 7.5px;
+    padding: 13px 15px 13px 15px;
+    gap: 8px;
+    border-radius: 6px ;
+    border: 1px solid #222222;
+    position: relative;
+}
+
+.form_cadastro div{
+    margin-bottom: 20px;
+}
+
+.label-field{
+    display: flex;
+    position: relative;
+    .label{
+        position:absolute;
+        z-index: 1;
+        left: 1vh;
+        font-size: 1vh;
+        background-color: #f2f2f2;
+    }
+}
+
+.button_cadastro{
+    margin-top: 41px;
+    font-size: 1em;
+    font-weight: 700;
+    background: #105F74;
+    color: #F2F2F2;
+    width: 400px;
+    height: 49px;
+    padding: 15px 20px 15px 20px;
+    gap: 10px;
+
+}
+
+#a_log{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: #105F74;
+    margin-top: 20px;
+}
+
+

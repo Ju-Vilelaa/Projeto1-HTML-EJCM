@@ -1,0 +1,94 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter";
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #181B24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 216px, 173px, 216px, 173px;
+}
+.logo{
+    margin-left: 173px
+}
+
+.square_login{
+    margin: 173px 128.5px;
+    width: 547px;
+    height: 591px;
+    background: #F2F2F2; 
+    border-radius: 20px; 
+}
+
+.form_login{
+    font-family: sans-serif;
+    margin:73.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form_login div{
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 400px;
+    height: 50px;
+    top: 7.5px;
+    padding: 13px 15px 13px 15px;
+    gap: 8px;
+    border-radius: 6px ;
+    border: 1px solid #222222;
+    position: relative;
+}
+
+
+.label-field{
+    display: flex;
+    position: relative;
+    .label{
+        position:absolute;
+        z-index: 1;
+        left: 1vh;
+        font-size: 1vh;
+        background-color: #f2f2f2;
+    }
+}
+
+#esqueci_senha{
+    text-decoration:none; 
+    color:#105F74;
+}
+.button_login{
+    margin-top: 41px;
+    font-size: 1em;
+    font-weight: 700;
+    background: #105F74;
+    color: #F2F2F2;
+    width: 400px;
+    height: 49px;
+    padding: 15px 20px 15px 20px;
+    gap: 10px;
+
+}
+
+#registrar_a{
+    text-align: center;
+    font-weight: 700;
+    color: #105F74;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
