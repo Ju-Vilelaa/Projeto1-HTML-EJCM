@@ -7,10 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../CSS/style_cadastro.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style_cadastro_responsivo.css" media="(max-width: 1150px)">
     <title>TTWITTER</title>
+    <meta name="description" content="Cadastro na plataforma TTwitter">
+    
 </head>
 <body>
     <div class="background">
+        <img src="../icones/Logo TT_pq.svg" alt="logo" id="logo_pq">
     <div class="square_cadastro">
         <form class="form_cadastro">    
             <h1>Cadastro</h1>
@@ -31,13 +35,16 @@
             </div>
 
             <div class="label-field">
-                <label  class="label" for="senha">Senha</label>
-                <input class="input" type="password" placeholder="&#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226"><br>
+                <label class="label" for="senha">Senha</label>
+                    <input class="input" id="password1" type="password" placeholder="&#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226"><br>
+                    <img id="iconeOlho_aberto1" onclick="togglePassword_senha()" src="../icones/olho_aberto.svg" alt="icone olho">
+                    
             </div>
 
             <div class="label-field">
                 <label class="label">Confirmar senha</label>
-                <input class="input" type="password" placeholder="&#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226"><br>
+                    <input class="input" id="password2" type="password"  placeholder="&#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226"><br>
+                    <img id="iconeOlho_aberto2" onclick="togglePassword_confirmar_senha()" src="../icones/olho_aberto.svg" alt="icone olho">    
             </div>
 
             <label>
@@ -53,9 +60,11 @@
         </form>
     </div>
 
-    <img src="../Logo TT.png" alt="logo" class="logo">
-    
+    <img class="logo" src="../icones/Logo TT_grande.svg" alt="logo" class="logo">
+
     </div>
+
+    <script src="../JS/cadastro.js"></script>
 </body>
 </html>
 

@@ -7,11 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../CSS/style_login.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style_login_responsivo.css" media="(max-width: 1150px)">
     <title>Login</title>
+    <meta name="description" content="Login na plataforma TTwitter">
 </head>
 <body>
     <div class="background">
-        <img src="../Logo TT.png" alt="logo" class="logo">
+        <img src="../icones/Logo TT_grande.svg" alt="logo TTwitter" class="logo">
+        <img  src="../icones/Logo TT_pq.svg" alt="logo TTwitter" id="logo_pq">
 
         <div class="square_login">
             <form class="form_login">    
@@ -24,14 +27,17 @@
 
                 <div class="label-field">
                 <label  class="label" for="senha">Senha</label>
-                <input class="input" type="password" placeholder="&#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226"><br>
+                <input id="password"class="input" type="password" placeholder="&#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226 &#8226"><br>
+                <img id="iconeOlho_aberto" onclick="togglePassword_senha()" src="../icones/olho_aberto.svg" alt="olho" >
                 </div>
 
                 <a href="#esqueci" id="esqueci_senha">Esqueci minha senha</a>
 
-                <button class="button_login" style="border-radius: 8px; border: 0px;" 
-                type="button">Login</button>
-            
+                <a href="home.html">
+                    <button class="button_login" style="border-radius: 8px; border: 0px;" 
+                    type="button" >Login</button>
+                </a>
+                
                 <a id="registrar_a">Registrar</a>
             
                 <label>
@@ -40,7 +46,8 @@
                 </label>
             </form>
         </div>
+        
     </div>
-    
+    <script src="../JS/login.js"></script>
 </body>
 </html>

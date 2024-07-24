@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #181B24;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.square_cadastro{
+    /*margin: 130px 128.5px;*/
+    max-width: 450px;
+    max-height: 650px;
+    background: #F2F2F2; 
+    border-radius: 20px; 
+    padding: 0px;
+
+    margin-top: 20px;
+    
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+.button_cadastro{
+    width: 250px;
+}
+
+#logo_pq{
+    display: block;
+    margin-top: 20px;
+}
+
+.logo{
+    display: none;
+}
